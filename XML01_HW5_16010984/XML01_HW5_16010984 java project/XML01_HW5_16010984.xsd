@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Method2 - designates targetNamespace as default namespace
+Main XSD
+-->
+
+<xsd:schema xmlns:xsd ="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.Method2"
+  xmlns="http://www.Method2"
+  xmlns:exa="http://www.importa"
+  xmlns:bbb="http://www.importb"
+  elementFormDefault="qualified">
+
+<xsd:include schemaLocation="XML01_HW5_16010984-1.xsd"/>
+<xsd:import namespace="http://www.importb"
+  schemaLocation="XML01_HW5_16010984-3.xsd"/>
+
+  <xsd:element name="NaverWebtoon">
+    <xsd:complexType>
+      <xsd:sequence>
+
+        <xsd:element name="mainTitle" type="xsd:string"/>
+
+        <xsd:element ref="bbb:header"/>
+
+        <xsd:element name="contents">
+          <xsd:complexType>
+            <xsd:sequence>
+
+          <xsd:element name="webtoons" minOccurs="0" maxOccurs="unbounded">
+
+            <xsd:complexType>
+              <xsd:sequence>
+
+                <xsd:element name="work" type="fullworking"/>
+
+                <xsd:element ref="publishing"/>
+
+                <xsd:element name="gotoWebsite" type="xsd:string"/>
+
+              </xsd:sequence>
+              <xsd:attribute name="sid" type="xsd:string" use="optional" default="0"/>
+            </xsd:complexType>
+          </xsd:element>
+
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:complexType name="working">
+        <xsd:sequence>
+          <xsd:element name="title" type="xsd:string" maxOccurs="unbounded"/>
+          <xsd:element name="author" type="xsd:string"/>
+          <xsd:element name="figure">
+            <xsd:complexType>
+              <xsd:attribute name="src" type="xsd:string"/>
+              <xsd:attribute name="alt" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="fullworking">
+    <xsd:complexContent>
+      <xsd:extension base="working">
+        <xsd:sequence>
+          <xsd:element name="genre" type="xsd:string"/>
+          <xsd:element name="synopsis" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+
+
+</xsd:schema>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XML01_HW05_16010984.xsl"?>
+
+<NaverWebtoon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.Method2 XML01_HW05_16010984.xsd"
+	xmlns="http://www.Method2"
+	xmlns:exa="http://www.importa"
+	xmlns:bbb="http://www.importb">
+	<mainTitle>현재 연재 중인 네이버 웹툰</mainTitle>
+	<bbb:header>
+		<bbb:madeby>16010984 컴퓨터공학과 한서현</bbb:madeby>
+	</bbb:header>
+	<contents>
+		<webtoons sid="1">
+			<work>
+				<title>신의 탑</title>
+				<author>SIU</author>
+				<figure src="신의 탑.jpg" alt="신의 탑"/>
+				<genre>스토리,판타지</genre>
+				<synopsis>자신의 모든 것이었던 소녀를 쫓아 탑에 들어온 소년. 그리고 그런 소년을 시험하는 탑</synopsis>
+			</work>
+			<publishing>
+				<day>월</day>
+				<exa:date>2010-06-30</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.94</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=183559&amp;weekday=mon</gotoWebsite>
+		</webtoons>
+		<webtoons sid="2">
+			<work>
+				<title>대학일기</title>
+				<author>자까</author>
+				<figure src="대학일기.jpg" alt="대학일기"/>
+				<genre>에피소드,일상,개그</genre>
+				<synopsis>로망이 꽃피는 캠퍼스는 없다. 극사실주의에 기반한 너무나 현실적인 우리의 대학일기</synopsis>
+			</work>
+			<publishing>
+				<day>월,목</day>
+				<exa:date>2016-06-01</exa:date>
+				<cutToon>true</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=679519&amp;weekday=mon</gotoWebsite>
+		</webtoons>
+		 <webtoons sid="3">
+			<work>
+				<title>꿈의 기업</title>
+				<author>문지현</author>
+				<figure src="꿈의 기업.jpg" alt="꿈의 기업"/>
+				<genre>스토리,판타지,스릴러</genre>
+				<synopsis>문명을 지배하는 거대기업과 거대기업을 움직이는 인공지능. 그 인공지능이 꿈을 꾸기 시작했다.</synopsis>
+			</work>
+			<publishing>
+				<day>월</day>
+				<exa:date>2016-11-13</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=687915&amp;weekday=mon</gotoWebsite>
+		</webtoons>
+		<webtoons sid="4">
+			<work>
+				<title>마음의 소리</title>
+				<author>조석</author>
+				<figure src="마음의 소리.jpg" alt="마음의 소리"/>
+				<genre>에피소드,일상,개그</genre>
+				<synopsis>마사루의 센스를, 이나중의 황당함을 뛰어 넘는다! 솔직 담백 최강의 개그 만화 &lt;마음의 소리&gt;! 여러분의 마음의 소리에 귀기울여 보세요!</synopsis>
+			</work>
+			<publishing>
+				<day>화</day>
+				<exa:date>2006-09-08</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.86</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=20853&amp;weekday=tue</gotoWebsite>
+		</webtoons>
+		<webtoons sid="5">
+			<work>
+				<title>가우스전자 시즌3~4</title>
+				<author>곽백수</author>
+				<figure src="가우스전자 시즌3~4.jpg" alt="가우스전자 시즌3~4"/>
+				<genre>에피소드,일상,개그</genre>
+				<synopsis>다국적 문어발 기업 가우스전자에서 벌어지는 웃픈 현실 직장인 이야기</synopsis>
+			</work>
+			<publishing>
+				<day>월,화,수,목,금</day>
+				<exa:date>2016-03-03</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=675554&amp;weekday=wed</gotoWebsite>
+		</webtoons>
+		<webtoons sid="6">
+			<work>
+				<title>그 판타지 세계에서 사는 법</title>
+				<author>촌장</author>
+				<figure src="그 판타지 세계에서 사는 법.jpg" alt="그 판타지 세계에서 사는 법"/>
+				<genre>스토리,판타지</genre>
+				<synopsis>용사가 마왕을 물리친 후 100년 뒤, 과거의 상처를 잊은 그 판타지 세계 주민들 이야기</synopsis>
+			</work>
+			<publishing>
+				<day>수</day>
+				<exa:date>2011-04-05</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=316909&amp;weekday=wed</gotoWebsite>
+		</webtoons>
+		<webtoons sid="7">
+			<work>
+				<title>쿠베라</title>
+				<author>카레곰</author>
+				<figure src="쿠베라.jpg" alt="쿠베라"/>
+				<genre>스토리,판타지</genre>
+				<synopsis>신의 이름을 가진 소녀와 마법사들이 펼쳐나가는 소속불명 장르 혼합 판타지</synopsis>
+			</work>
+			<publishing>
+				<day>목</day>
+				<exa:date>2018-03-15</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.96</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=131385&amp;weekday=thu</gotoWebsite>
+		</webtoons>
+		<webtoons sid="8">
+			<work>
+				<title>냐한남자</title>
+				<author>올소</author>
+				<figure src="냐한남자.jpg" alt="냐한남자"/>
+				<genre>스토리,개그,판타지</genre>
+				<synopsis>냥줍을 잘못하면... 남자친구가 생깁니다(?)</synopsis>
+			</work>
+			<publishing>
+				<day>금</day>
+				<exa:date>2018-03-15</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=708452&amp;weekday=fri</gotoWebsite>
+		</webtoons>
+		<webtoons sid="9">
+			<work>
+				<title>유미의 세포들</title>
+				<author>이동건</author>
+				<figure src="유미의 세포들.jpg" alt="유미의 세포들"/>
+				<genre>에피소드,개그,</genre>
+				<synopsis>유미와 그녀의 우당탕탕 세포들 이야기.</synopsis>
+			</work>
+			<publishing>
+				<day>수,토</day>
+				<exa:date>2015-04-01</exa:date>
+				<cutToon>true</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=651673&amp;weekday=sat</gotoWebsite>
+		</webtoons>
+		<webtoons sid="10">
+			<work>
+				<title>병의 맛</title>
+				<author>하일권</author>
+				<figure src="병의 맛.jpg" alt="병의 맛"/>
+				<genre>스토리,판타지,드라마,감성</genre>
+				<synopsis>학교가기 싫음. 친구 없음. 혼자밥 먹음. 이런 나에게 무언가 생겨나기 시작했다.</synopsis>
+			</work>
+			<publishing>
+				<day>토</day>
+				<exa:date>2018-08-03</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.97</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=714839&amp;weekday=sat</gotoWebsite>
+		</webtoons>
+		<webtoons sid="11">
+			<work>
+				<title>스위트홈</title>
+				<author>김칸비,황영찬</author>
+				<figure src="스위트홈.jpg" alt="스위트홈"/>
+				<genre>스토리,액션,드라마,스릴러</genre>
+				<synopsis>절망의 세상을 비관하고 스스로를 고립시킨 한 소년, 하지만 이제 소년은 밖으로 나가고 싶다.</synopsis>
+			</work>
+			<publishing>
+				<day>금</day>
+				<exa:date>2017-10-12</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.98</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=701081&amp;weekday=fri</gotoWebsite>
+		</webtoons>
+		<webtoons sid="12">
+			<work>
+				<title>조의 영역</title>
+				<author>조석</author>
+				<figure src="조의 영역.jpg" alt="조의 영역"/>
+				<genre>스토리,스릴러</genre>
+				<synopsis>물에 살던 녀석들의 모습이 상식을 벗어나기 시작했다. '마음의 소리' 조석의 재난 스릴러</synopsis>
+			</work>
+			<publishing>
+				<day>일</day>
+				<exa:date>2017-06-17</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.95</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=697656&amp;weekday=sun</gotoWebsite>
+		</webtoons>
+		<webtoons sid="13">
+			<work>
+				<title>여신강림</title>
+				<author>야옹이</author>
+				<figure src="여신강림.jpg" alt="여신강림"/>
+				<genre>스토리,드라마,순정</genre>
+				<synopsis>누구에게나 비밀은 있다! 그렇다면 여신에게는 어떤 비밀이?!</synopsis>
+			</work>
+			<publishing>
+				<day>화</day>
+				<exa:date>2018-04-02</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.84</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=703846&amp;weekday=tue</gotoWebsite>
+		</webtoons>
+		<webtoons sid="14">
+			<work>
+				<title>약한영웅</title>
+				<author>서패스,김진석</author>
+				<figure src="약한영웅.jpg" alt="약한영웅"/>
+				<genre>에피소드,액션</genre>
+				<synopsis>선천적으로 약한 소년이 두뇌와 도구, 심리를 이용하여 싸운다.</synopsis>
+			</work>
+			<publishing>
+				<day>일</day>
+				<exa:date>2018-05-05</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.8</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=710751&amp;weekday=sun</gotoWebsite>
+		</webtoons>
+		<webtoons sid="15">
+			<work>
+				<title>연애혁명</title>
+				<author>232</author>
+				<figure src="연애혁명.jpg" alt="연애혁명"/>
+				<genre>스토리,개그,드라마</genre>
+				<synopsis>로맨스, 그런 건 우리에게 있을 수가 없어! 신개념 개그 로맨스</synopsis>
+			</work>
+			<publishing>
+				<day>목</day>
+				<exa:date>2013-09-04</exa:date>
+				<cutToon>false</cutToon>
+				<stars>9.87</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=570503&amp;weekday=thu</gotoWebsite>
+		</webtoons>
+	</contents>
+</NaverWebtoon>

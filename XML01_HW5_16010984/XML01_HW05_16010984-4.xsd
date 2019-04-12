@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd ="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.importb"
+  xmlns:bbb="http://www.importb"
+  elementFormDefault="qualified">
+
+<xsd:element name="madeby" type="xsd:string"/>
+<xsd:element name="madeby2" type="xsd:string"/>
+
+</xsd:schema>

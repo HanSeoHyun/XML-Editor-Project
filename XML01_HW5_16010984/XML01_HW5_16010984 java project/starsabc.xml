@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NaverWebtoon xmlns="http://www.Method2" xmlns:bbb="http://www.importb" xmlns:exa="http://www.importa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.Method2 XML01_HW4_16010984.xsd">
+	<mainTitle>현재 연재 중인 네이버 웹툰</mainTitle>
+<!--이것은 주석입니다-->
+	<bbb:header>
+		<bbb:madeby>16010984 컴퓨터공학과 한서현</bbb:madeby>
+	</bbb:header>
+	<contents>
+		<webtoons sid="1">
+		<!--주석-->
+			<work>
+				<title>신의 탑</title>
+				<author>SIU</author>
+				<figure alt="신의 탑" src="신의 탑.jpg"/>
+				<genre>스토리,판타지</genre>
+				<synopsis>자신의 모든 것이었던 소녀를 쫓아 탑에 들어온 소년. 그리고 그런 소년을 시험하는 탑</synopsis>
+				<!--a-->
+			</work>
+			<publishing>
+				<day>월</day>
+				<exa:date>2010-06-30</exa:date>
+				<cutToon>false</cutToon>
+				<stars>abc</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=183559&amp;weekday=mon</gotoWebsite>
+		</webtoons>
+		<webtoons sid="2">
+			<work>
+				<title>대학일기</title>
+				<author>자까</author>
+				<figure alt="대학일기" src="대학일기.jpg"/>
+				<genre>에피소드,일상,개그</genre>
+				<synopsis>로망이 꽃피는 캠퍼스는 없다. 극사실주의에 기반한 너무나 현실적인 우리의 대학일기</synopsis>
+			</work>
+			<publishing>
+				<day>월,목</day>
+				<exa:date>2016-06-01</exa:date>
+				<cutToon>true</cutToon>
+				<stars>abc</stars>
+			</publishing>
+			<gotoWebsite>https://comic.naver.com/webtoon/list.nhn?titleId=679519&amp;weekday=mon</gotoWebsite>
+		</webtoons>
+	</contents>
+</NaverWebtoon>

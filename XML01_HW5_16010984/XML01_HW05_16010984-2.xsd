@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Method1 designates XMl Schmea as default namespace
+-->
+<schema xmlns ="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.importa"
+  xmlns:exa="http://www.importa"
+  elementFormDefault="qualified">
+
+  <element name="date">
+    <simpleType>
+      <restriction base="string">
+        <length value="10"/>
+        <pattern value="\d{4}-\d{2}-\d{2}"/>
+      </restriction>
+    </simpleType>
+  </element>
+
+</schema>

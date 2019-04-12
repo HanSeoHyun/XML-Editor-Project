@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Method3 - Does not designates namespace-->
+
+
+<xsd:schema xmlns:xsd ="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.importb"
+  xmlns:bbb="http://www.importb"
+  elementFormDefault="qualified">
+
+<xsd:include schemaLocation="XML01_HW5_16010984-4.xsd"/>
+<xsd:element name="header">
+  <xsd:complexType>
+    <xsd:choice>
+      <xsd:element ref="bbb:madeby"/>
+      <xsd:element ref="bbb:madeby2"/>
+    </xsd:choice>
+  </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>
